@@ -1,0 +1,128 @@
+* {
+  font-family: 'Muli', 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Muli', 'Open Sans', sans-serif!important;
+  font-weight: normal;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 160px;
+  color: #9f9f9f;
+}
+
+p {
+  font-family: 'Verdana', 'Open Sans', sans-serif;
+  font-size: 16pt;
+  margin-bottom: 2.5em;
+}
+
+.indent {
+  margin-left: 1em;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 160px;
+  background-color: #1E1E1E;
+}
+
+@media(min-width:768px) {
+  .footer {
+    height: 100px;
+  }
+
+  body {
+    margin-bottom: 100px;
+  }
+}
+
+.navbar-right {
+  margin-right: 0px;
+}
+
+.navbar-static-top {
+  margin: 0;
+}
+
+.navbar-brand-logo {
+  padding: 0px 10px 0px 10px;
+}
+
+.logo {
+  padding-top: 3px;
+  max-height: 45px;
+}
+
+.footer > .container {
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.img-responsive {
+  position:relative;
+  margin: 0;
+  z-index: -1;
+}
+
+.jumbotron {
+  position:relative;
+  color: white;
+  text-shadow: #111 2px 4px 10px;
+  background:transparent;
+  padding-top:0;
+  padding-bottom: 0;
+}
+
+@media(min-width:768px) {
+  .jumbotron .container {
+    padding-left: 100px;
+  }
+}
+
+.jumbotron .container {
+  /*padding-left: 40px;*/
+  padding-top: 10%;
+  position:absolute;
+}
+
+#success_message{ display: none;}
+
+.roster-image {
+  width: 200px;
+  height: 200px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display:block;
+  margin-top: 0;
+}
+
+/* Background color for About drop down */
+.navbar-nav > li > .dropdown-menu { background-color: #000000; }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #33659F;  /*Sets the text hover color on navbar*/
+}
+
+.dropdown-menu > li > a:hover,
+ .dropdown-menu > li > a:focus {
+  color: white;
+  text-decoration: none;
+  background-color: #33659F;  /*change color of links in drop down here*/
+ }
+
+.navbar-default .navbar-nav > li > a {
+ color: darkgray; /*Change non-active text color here*/
+  }
