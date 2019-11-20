@@ -1,0 +1,135 @@
+---
+layout: jumbotron
+title: Join The Team
+order: 4
+---
+
+<h3 class="text-center">
+  Our team is open to all students of Western Washington University, no matter what degree you are pursuing.
+</h3>
+<br>
+<p>
+  No prior experience is required, only the willingness and dedication to learn. We are a fun and dedicated group that loves having new members who are eager to work on engineering and/or business teams.
+<br>
+<br>
+  The best way to get involved is to attend our meetings held on <strong><u>Mondays at 6:30PM in Arntzen 100</u></strong>. You are welcome to talk to any of the directors or leads to learn how to get personally involved. If you are unable to attend meetings, please get in touch through email to schedule an introduction.
+</p>
+
+<h3>
+  If you’re interested in joining WWU Racing, please fill out the form below.
+</h3>
+
+<div class="container-fluid">
+
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLScrmCTT32IRIvhx7CA4stHZwWbq-NIM8_7pjtFOyoR5kc2m4w/formResponse" data-toggle="validator" class="well form-horizontal" method="POST" id="contact_form">
+
+      <!-- Form Name -->
+      <legend>Join The Team</legend>
+
+      <!-- First Name Text input-->
+      <div class="form-group">
+        <label for="entry.931300488" class="col-md-4 control-label">First Name</label>
+        <div class="col-md-4 inputGroupContainer">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input name="entry.931300488" placeholder="First Name" class="form-control"  type="text" required>
+          </div>
+        </div>
+      </div>
+
+      <!-- Last Name Text input-->
+      <div class="form-group">
+        <label for="entry.51965187" class="col-md-4 control-label" >Last Name</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input name="entry.51965187" placeholder="Last Name" class="form-control"  type="text" required>
+            </div>
+          </div>
+      </div>
+
+      <!-- E-Mail-->
+      <div class="form-group">
+        <label for="emailAddress" class="col-md-4 control-label">E-Mail</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+              <input name="emailAddress" placeholder="E-Mail Address" class="form-control"  type="email" required>
+            </div>
+          </div>
+      </div>
+
+      <!-- Major Selection -->
+      <div class="form-group">
+        <label for="entry.754901984" class="col-md-4 control-label">Major</label>
+          <div class="col-md-4 selectContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+              <select name="entry.754901984" id="majorSelect" class="form-control selectpicker" required>
+                <option selected disabled>Please select your Major</option>
+                <option>Vehicle Design</option>
+                <option>Manufacturing Engineering</option>
+                <option>Plastics &amp; Composites Engineering</option>
+                <option>Electrical Engineering</option>
+                <option>Computer Science</option>
+                <option>Business</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+      </div>
+
+      <!-- Other Major Text input-->
+      <div class="form-group" id="otherMajorDiv" hidden>
+        <label for="entry.787878833" class="col-md-4 control-label" >Other Major</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+              <input name="entry.787878833" id='otherMajorTextInput' placeholder="Major" class="form-control"  type="text">
+            </div>
+          </div>
+      </div>
+
+      <!-- radio checks -->
+       <div class="form-group">
+          <label for="entry.130560666" class="col-md-4 control-label">Year</label>
+          <div class="col-md-4">
+            <label class="radio-inline">
+                <input type="radio" name="entry.130560666" value="1st" required/> 1st
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="entry.130560666" value="2nd" /> 2nd
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="entry.130560666" value="3rd" /> 3rd
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="entry.130560666" value="4th" /> 4th
+            </label>
+          </div>
+      </div>
+
+      <!-- Interests Text area -->
+      <div class="form-group">
+        <label class="col-md-4 control-label">Interests</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+              <textarea class="form-control" name="entry.349000595" placeholder="Interests"></textarea>
+            </div>
+          </div>
+      </div>
+
+      <!-- Success message -->
+      <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
+      <!-- Submit Button -->
+      <div class="form-group">
+        <label class="col-md-4 control-label"></label>
+        <div class="col-md-4">
+          <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+        </div>
+      </div>
+
+    </form>
+</div><!-- /.container -->
