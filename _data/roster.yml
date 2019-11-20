@@ -17,45 +17,33 @@
 
 - heading: Chassis
   members:
+    - name: Logan Roy
+      major: Manufacturing Engineering
+      linkedin: http://www.linkedin.com/in/logan-roy-bb3391162/
+      lead: true
+      major: Plastics & Composites Engineering
+
+    - name: Adam Hess
+      major: Industrial Technology, Vehicle Design
+      lead: true
+      
+
+- heading: Aero
+  members:
     - name: Weston Renda
       title: Chassis Lead
       linkedin: http://www.linkedin.com/in/weston-renda-194a56a0
       lead: true
       major: Plastics & Composites Engineering
-
-    - name: Brandon Jones
-      title: Assistant Chassis Lead
-      major: Industrial Technology, Vehicle Design
-      linkedin: http://www.linkedin.com/in/brandon-jones-162516103/
-      lead: true
-
-    - name: Adam Hess
-      major: Industrial Technology, Vehicle Design
-
-    - name: Logan Roy
-      major: Manufacturing Engineering
-      linkedin: http://www.linkedin.com/in/logan-roy-bb3391162/
-
+      
 - heading: Suspension
   members:
-    - name: Austin Mellinger
-      title: Suspension Lead
-      linkedin: http://www.linkedin.com/in/austinmellinger/
-      lead: true
-      major: Manufacturing Engineering
-
     - name: Wyatt Lemoine
       title: Assistant Suspension Lead
       major: Manufacturing Engineering
       linkedin: http://www.linkedin.com/in/wyatt-lemoine-425b90178/
       lead: true
 
-    - name: Mitch Hooper
-      major: Industrial Technology, Vehicle Design
-      linkedin: http://www.linkedin.com/in/mitch-hooperwwu/
-
-    - name: Sean Hecker
-      major: Economics/Environmental Studies
 
 - heading: Powertrain
   members:
@@ -64,6 +52,10 @@
       linkedin: http://www.linkedin.com/in/HenryMillican
       lead: true
       major: Manufacturing Engineering
+      
+    - name: Sean Lawrence
+      major: Manufacturing Engineering
+      lead: true
 
     - name: Jacob Thurber
       major: Industrial Technology, Vehicle Design
@@ -72,31 +64,15 @@
       major: English
       linkedin: http://www.linkedin.com/in/mara-miller-69986b154
 
-    - name: Sean Lawrence
-      major: Manufacturing Engineering
+    
 
 - heading: Ergonomics
   members:
-    - name: Madison Moelhman
+    - name: Ellison Brink
       title: Ergonomics Lead
-      major: Manufacturing Engineering
-      linkedin: http://www.linkedin.com/in/madison-moelhman-15b068126/
       lead: true
 
-    - name: Jordan Majocha
-      title: Assistant Ergonomics Lead
-      linkedin: http://www.linkedin.com/in/jordan-majocha-13451814b/
-      major: Industrial Technology, Vehicle Design
-      lead: true
-
-    - name: Niklas Dolph
-      major: Plastics & Composites Engineering
-
-    - name: Ruth Runge
-      major: Manufacturing Engineering
-
-    - name: Christina Heater
-      major: Computer Science
+  
 
 - heading: Electronics
   members:
@@ -105,7 +81,3 @@
       lead: true
       major: Computer Science
 
-    - name: Rory Reshovsky
-      title: Assistant Electronics Lead
-      lead: true
-      major: Electrical Engineering
