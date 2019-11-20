@@ -15,6 +15,7 @@
       title: Business Director
       major: Accounting & Management Information Systems
 
+
 - heading: Chassis
   members:
     - name: Logan Roy
@@ -26,8 +27,8 @@
     - name: Adam Hess
       major: Industrial Technology, Vehicle Design
       lead: true
-      
-
+    
+    
 - heading: Aero
   members:
     - name: Weston Renda
@@ -35,7 +36,8 @@
       linkedin: http://www.linkedin.com/in/weston-renda-194a56a0
       lead: true
       major: Plastics & Composites Engineering
-      
+    
+    
 - heading: Suspension
   members:
     - name: Wyatt Lemoine
@@ -57,14 +59,6 @@
       major: Manufacturing Engineering
       lead: true
 
-    - name: Jacob Thurber
-      major: Industrial Technology, Vehicle Design
-
-    - name: Mara Miller
-      major: English
-      linkedin: http://www.linkedin.com/in/mara-miller-69986b154
-
-    
 
 - heading: Ergonomics
   members:
@@ -72,7 +66,6 @@
       title: Ergonomics Lead
       lead: true
 
-  
 
 - heading: Electronics
   members:
