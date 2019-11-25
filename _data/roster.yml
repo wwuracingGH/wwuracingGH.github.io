@@ -50,9 +50,10 @@
   members:
     - name: Wyatt Lemoine
       title: Suspension Lead
+      lead: true
       major: Manufacturing Engineering
       linkedin: http://www.linkedin.com/in/wyatt-lemoine-425b90178/
-      lead: true
+      
       
       name: Matthew Evanoff
       title: Suspension Assistant Lead
