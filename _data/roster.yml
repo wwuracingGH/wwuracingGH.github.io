@@ -2,6 +2,7 @@
   members:
     - name: Austin Mellinger
       title: Project Manager
+      linkedin: https://www.linkedin.com/in/austinmellinger/
       major: Manufacturing Engineering
 
 - heading: Directors
@@ -13,16 +14,16 @@
 
     - name: Ryan Meredith
       title: Business Director
-      major: Accounting & Management Information Systems
+      major: Management Information Systems
 
 
 - heading: Chassis
   members:
     - name: Logan Roy
+      title: Chassis Lead
       major: Manufacturing Engineering
-      linkedin: http://www.linkedin.com/in/logan-roy-bb3391162/
+      linkedin: https://www.linkedin.com/in/loganroy3
       lead: true
-      major: Plastics & Composites Engineering
 
     - name: Adam Hess
       major: Industrial Technology, Vehicle Design
@@ -32,16 +33,21 @@
 - heading: Aero
   members:
     - name: Weston Renda
-      title: Chassis Lead
+      title: Aero Lead
       linkedin: http://www.linkedin.com/in/weston-renda-194a56a0
       lead: true
       major: Plastics & Composites Engineering
+      
+    - name: Abe Simon
+      title: Aero Assistant Lead
+      lead: true
+      major: Indutrial Design, Vehicle Technology
     
     
 - heading: Suspension
   members:
     - name: Wyatt Lemoine
-      title: Assistant Suspension Lead
+      title: Suspension Lead
       major: Manufacturing Engineering
       linkedin: http://www.linkedin.com/in/wyatt-lemoine-425b90178/
       lead: true
@@ -56,8 +62,10 @@
       major: Manufacturing Engineering
       
     - name: Sean Lawrence
+      title: Powertrain Assistant Lead
       major: Manufacturing Engineering
       lead: true
+      linkedin: https://www.linkedin.com/in/sean-lawrence-793a77183/
 
 
 - heading: Ergonomics
@@ -65,6 +73,14 @@
     - name: Ellison Brink
       title: Ergonomics Lead
       lead: true
+      major: Plastics anf Composites Engineering
+      linkedin: https://www.linkedin.com/in/ellison-brink-b66076180/
+      
+    - name: Niklas Dolph
+      title: Ergonimics Assistant Lead
+      lead: true
+      major: Plastics and Composites Engineering
+      linkedin: https://www.linkedin.com/in/niklas-dolph-89b268197/
 
 
 - heading: Electronics
@@ -73,4 +89,5 @@
       title: Electronics Lead
       lead: true
       major: Computer Science
+      linkedin: https://www.linkedin.com/in/peter-schinske-66359b196/
 
