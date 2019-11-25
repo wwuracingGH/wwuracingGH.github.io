@@ -15,6 +15,7 @@
     - name: Ryan Meredith
       title: Business Director
       major: Management Information Systems
+      linkedin: https://www.linkedin.com/in/johnrmeredith/
 
 
 - heading: Chassis
@@ -56,6 +57,8 @@
       name: Matthew Evanoff
       title: Suspension Assistant Lead
       lead: true
+      major: Plastics and Composites Engineering
+      linkedin: https://www.linkedin.com/in/matthew-evanoff-349a7b166/
 
 - heading: Powertrain
   members:
