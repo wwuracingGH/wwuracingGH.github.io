@@ -28,6 +28,7 @@
     - name: Adam Hess
       major: Industrial Technology, Vehicle Design
       lead: true
+      title: Chassis Assistant Lead
     
     
 - heading: Aero
@@ -51,7 +52,10 @@
       major: Manufacturing Engineering
       linkedin: http://www.linkedin.com/in/wyatt-lemoine-425b90178/
       lead: true
-
+      
+      name: Matthew Evanoff
+      title: Suspension Assistant Lead
+      lead: true
 
 - heading: Powertrain
   members:
