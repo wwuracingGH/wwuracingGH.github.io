@@ -7,7 +7,6 @@ order: 3
   Manufacturing and testing consume the majority of our budget, which is often our primary constraint.
   <i><strong>We are always actively pursuing new sponsors in the following areas:</strong></i>
 </h3>
-<br>
 <p class="indent">
   <strong><u>Monetary:</u></strong><br>
   Monetary sponsorships are the most valuable. Monetary support gives us the most flexibility to allocate our resources with maximum efficiency.
@@ -37,11 +36,77 @@ order: 3
 <h2 class="text-center">
   <strong><a href="files\1920SponsorshipPacket.pdf" alt="Sponsorship Packet">Review the 2019-2020 WWU Racing Sponsorship Packet</a></strong>
 </h2>
-<br>
 <h2 class="text-center">
   <strong>Contact <a href="mailto:sponsorship@wwuracing.com">sponsorship@wwuracing.com</a> to arrange a meeting.</strong>
 </h2>
-
+<br>
 <h2 class="text-center">
-  <strong>Thank you to all of our current sponsors! We could not innovate </strong>
+  <strong>Thank you to all of our current sponsors! We could not innovate without your generosity and support!</strong>
 </h2>
+
+---
+layout: default
+title: Team Roster
+belongs_to: About
+---
+this is the strucutre of the roster page that can be used for sponorship logos to populate on the team site
+---
+<!--
+
+<div class="container-body container text-center">
+  <h1><strong>The Team</strong></h1>
+  {%- for team in site.data.roster -%}
+    <br>
+    <div class="row">
+      <div class="col-lg-12">
+        <h2><u>{{ team.heading }}</u></h2>
+        <br>
+      </div>
+      {%- for member in team.members -%}
+      {%- assign leads = team.members | where: "lead", true -%}
+      {%- assign leadlength = leads | size -%}
+      {%- assign memberlength = forloop.length | minus: leadlength -%}
+      {%- assign mod3 = memberlength | modulo: 3 -%}
+      {%- assign mod2 = memberlength | modulo: 2 -%}
+      {%- assign email = member.name | downcase | replace: ' ','.' | append: '@wwuracing.com' -%}
+      <div class="col-lg-
+      {%- if member.lead == true -%}
+        {{12 | divided_by: leadlength}}
+      {%- elsif forloop.rindex0 < mod3 -%}
+        {{12 | divided_by: mod3}}
+      {%- else -%}
+      4
+      {%- endif %} col-sm-
+      {%- if member.lead -%}
+        {{12 | divided_by: leadlength}}
+      {%- elsif forloop.rindex0 < mod2 -%}
+        {{12 | divided_by: mod2}}
+      {%- else -%}
+        6
+      {%- endif %} mb-4">
+        <img class="roster-image rounded-circle img-fluid d-block mx-auto" src="{{ site.url }}/images/roster/{{member.name | downcase | replace: ' ','_' | append: '.jpg'}}" alt="{{member.name}}">
+        <h3>{{ member.name }}
+          <small>
+            {%- if member.title -%}
+            <br>
+            {{ member.title }}
+            {%- endif -%}
+            {%- if member.major -%}
+            <br>
+            <small><em>{{ member.major }}</em></small>
+            {%- endif -%}
+            <br>
+            <a href="mailto:{{ email }}"><i class="fa fa-envelope" style="font-size:24px"></i></a>
+            {%- if member.linkedin -%}
+            <a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin" style="font-size:24px;padding-left:40px"></i></a>
+            {%- endif -%}
+          </small>
+        </h3>
+        <br><br>
+      </div>
+    {%- endfor -%}
+  </div>
+  {%- endfor -%}
+</div>
+
+-->
