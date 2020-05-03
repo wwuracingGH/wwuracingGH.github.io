@@ -130,8 +130,9 @@ color: #33659F;  /*Sets the text hover color on navbar*/
 .flex-container{
 display:flex;
   }
-  
+
 .box{
+flex:1;
 background-color:#f1f1f1;
 margin: 10px;
 padding: 20px;
