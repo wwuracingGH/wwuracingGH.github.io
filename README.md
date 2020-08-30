@@ -1,38 +1,38 @@
 # Setup Instructions
 
-## Install Ruby
+### Install Ruby
 
 https://rubyinstaller.org/downloads/
 
-## Install [Jekyll](https://jekyllrb.com/docs/installation/)
+### Install [Jekyll](https://jekyllrb.com/docs/installation/)
 
 `-> gem install jekyll bundler`
 
-## Install tzinfo
+### Install tzinfo
 
 `-> gem install tzinfo-data`
 
-## Install Git
+### Install Git
 
 https://git-scm.com/
 
-## Clone our Repository
+### Clone our Repository
 `-> git clone https://github.com/rhedgehog/WWURacing-web.git`
 
-## Delete old Files
+### Delete old Files
 
 `-> rm Gemfile.lock`
 
 `-> bundle clean --force`
 
-## Setup Bundle
+### Setup Bundle
 
 `-> bundle install`
 
-## Start the server
+### Start the server
 
 `-> jekyll serve`
 
-## Open in your local browser
+### Open in your local browser
 
 http://127.0.0.1:4000/
