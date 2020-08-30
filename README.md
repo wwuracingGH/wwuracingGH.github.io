@@ -31,7 +31,7 @@ https://git-scm.com/
 
 ### Start the server
 
-`-> jekyll serve`
+`-> bundle exec jekyll serve`
 
 ### Open in your local browser
 
