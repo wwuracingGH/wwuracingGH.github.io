@@ -1,95 +1,42 @@
 - heading: Project Manager
   members:
-    - name: Austin Mellinger
+    - name: Sean Lawrence
       title: Project Manager
-      linkedin: https://www.linkedin.com/in/austinmellinger/
+      linkedin: https://www.linkedin.com/in/sean-lawrence-793a77183/
       major: Manufacturing Engineering
 
 - heading: Directors
   members:
-    - name: Riley Dickinson
+    - name: Adam Hess
       title: Technical Director
-      linkedin: http://www.linkedin.com/in/riley-dickinson-001181156
-      major: Plastics & Composites Engineering
+      major: Industrial Technology, Vehicle Design
 
     - name: Ryan Meredith
       title: Business Director
       major: Management Information Systems
       linkedin: https://www.linkedin.com/in/johnrmeredith/
 
+- heading: Aero
+  members:
+    - name: Chris Baumgartner
+      title: Aerodynamics Lead
+      linkedin: https://www.linkedin.com/in/christopher-baumgartner-1298321a5/
+      lead: true
+      major: Plastics and Composites Engineering
+      
+    - name: Alec Newton
+      title: Aerodynamics Assistant Lead
+      lead: true
+      major:
 
 - heading: Chassis
   members:
-    - name: Logan Roy
-      title: Chassis Lead
-      major: Manufacturing Engineering
-      linkedin: https://www.linkedin.com/in/loganroy3
-      lead: true
-
-    - name: Adam Hess
-      major: Industrial Technology, Vehicle Design
-      lead: true
-      title: Chassis Assistant Lead
-    
-    
-- heading: Aero
-  members:
-    - name: Weston Renda
-      title: Aero Lead
-      linkedin: http://www.linkedin.com/in/weston-renda-194a56a0
-      lead: true
-      major: Plastics & Composites Engineering
-      
-    - name: Abe Simon
-      title: Aero Assistant Lead
-      lead: true
-      major: Indutrial Design, Vehicle Technology
-    
-    
-- heading: Suspension
-  members:
-    - name: Wyatt Lemoine
-      title: Suspension Lead
-      lead: true
-      major: Manufacturing Engineering
-      linkedin: http://www.linkedin.com/in/wyatt-lemoine-425b90178/
-      
-    - name: Matthew Evanoff
-      title: Suspension Assistant Lead
-      lead: true
-      major: Plastics and Composites Engineering
-      linkedin: https://www.linkedin.com/in/matthew-evanoff-349a7b166/
-
-- heading: Powertrain
-  members:
-    - name: Henry Millican
-      title: Powertrain Lead
-      linkedin: http://www.linkedin.com/in/HenryMillican
-      lead: true
-      major: Manufacturing Engineering
-      
-    - name: Sean Lawrence
-      title: Powertrain Assistant Lead
-      major: Manufacturing Engineering
-      lead: true
-      linkedin: https://www.linkedin.com/in/sean-lawrence-793a77183/
-
-
-- heading: Ergonomics
-  members:
     - name: Ellison Brink
-      title: Ergonomics Lead
-      lead: true
-      major: Plastics anf Composites Engineering
-      linkedin: https://www.linkedin.com/in/ellison-brink-b66076180/
-      
-    - name: Niklas Dolph
-      title: Ergonimics Assistant Lead
-      lead: true
+      title: Chassis Lead
       major: Plastics and Composites Engineering
-      linkedin: https://www.linkedin.com/in/niklas-dolph-89b268197/
-
-
+      linkedin: https://www.linkedin.com/in/ellison-brink-b66076180/
+      lead: true
+   
 - heading: Electronics
   members:
     - name: Peter Schinske
@@ -97,4 +44,51 @@
       lead: true
       major: Computer Science
       linkedin: https://www.linkedin.com/in/peter-schinske-66359b196/
-
+      
+    - name: Daniel Young
+      title: Electronics Assistant Lead
+      lead: true
+      major: Electrical Engineering
+      linkedin: https://www.linkedin.com/in/danielyoung71857/
+      
+- heading: Ergonomics
+  members:
+    - name: Allison Mazurek
+      title: Ergonomics Lead
+      lead: true
+      major: 
+      linkedin: 
+      
+    - name: Ingrid Shipstead
+      title: Ergonomics Assistant Lead
+      lead: true
+      major: 
+      linkedin: 
+      
+- heading: Powertrain
+  members:
+    - name: Chandler Johnston
+      title: Powertrain Lead
+      linkedin: https://www.linkedin.com/in/chandler-johnston/
+      lead: true
+      major: Electrical Engineering, Energy Concentration
+      
+    - name: Niklas Dolph
+      title: Powertrain Assistant Lead
+      major: Plastics and Composites Engineering
+      lead: true
+      linkedin: https://www.linkedin.com/in/niklas-dolph-89b268197/
+    
+- heading: Suspension
+  members:
+    - name: Matthew Evanoff
+      title: Suspension Lead
+      lead: true
+      major: Plastics and Composites Engineering
+      linkedin: https://www.linkedin.com/in/matthew-evanoff-349a7b166/
+      
+    - name: Alex West
+      title: Suspension Assistant Lead
+      lead: true
+      major: 
+      linkedin: 
