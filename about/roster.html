@@ -35,7 +35,7 @@ belongs_to: About
       {%- else -%}
         6
       {%- endif %} mb-4">
-        <img class="roster-image rounded-circle img-fluid d-block mx-auto" src="{{ site.url }}/images/roster/{{member.name | downcase | replace: ' ','_' | append: '.jpg'}}" alt="{{member.name}}">
+        <img class="roster-image rounded-circle img-fluid d-block mx-auto" src="{{ site.url }}/images/roster/{{member.name | downcase | replace: ' ','_' | append: '.jpg'}}" alt="">
         <h3>{{ member.name }}
           <small>
             {%- if member.title -%}
