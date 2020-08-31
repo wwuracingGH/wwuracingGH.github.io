@@ -129,43 +129,44 @@ color: #33659F;  /*Sets the text hover color on navbar*/
 
 .flex-container{
 display:flex;
+  float: right;
   }
 
 .box{
-flex:1;
-float: right;
-/* background-color:#f1f1f1; */
-margin: 10px;
-padding: 20px;
-font-size:30px;
-  }
+  flex:1;
+  float: right;
+  /* background-color:#f1f1f1; */
+  margin: 10px;
+  padding: 20px;
+  font-size:30px;
+}
 
 .indentp {
     margin-left: 1em;
     color: #e5e4e2
-  }
+}
 
 .indentg {
     margin-left: 1em;
     color: #d4af37
-  }
+}
 .indents {
     margin-left: 1em;
     color: #c0c0c0
-  }
-  .indentb {
+}
+.indentb {
     margin-left: 1em;
     color: #b08d57
-  }
+}
 .indentsp {
     margin-left: 1em;
     color: #66b5e6
-  }
+}
 .indentf {
     margin-left: 1em;
     color: #99cdef
-  }
-  .indentgi {
+}
+.indentgi {
     margin-left: 1em;
     color: #cce6f7
-  }
+}
