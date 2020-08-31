@@ -24,7 +24,7 @@
                 <li{% if node.title == page.title %} class="active"{% endif %}><a href="{{ node.url | remove: '.html'}}">{{ node.title }}</a></li>
                 {% else %}
                   <li class="dropdown {% if node.title == page.title %}active{% endif %}">
-                    <a class="dropdown-toggle disabled" data-toggle="dropdown" href="{{ node.url | remove: '.html'}}">{{ node.title }} <span class="caret"></span></a>
+                    <a class="dropdown-toggle disabled" data-toggle="dropdown" href="">{{ node.title }} <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       <li{% if sub_page.title == page.title %} class="active"{% endif %}><a href="{{ node.url | remove: '.html'}}">{{ node.title }}</a></li>
                       {% for sub_page in sub_pages %}
