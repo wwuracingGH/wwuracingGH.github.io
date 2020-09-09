@@ -133,8 +133,8 @@ display:flex;
   }
 
 .box{
-  flex:1;
-  float: right;
+  /* flex:1; */
+  /* float: right; */
   /* background-color:#f1f1f1; */
   margin: 10px;
   padding: 20px;
