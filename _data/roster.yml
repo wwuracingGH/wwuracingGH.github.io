@@ -2,14 +2,15 @@
   members:
     - name: Sean Lawrence
       title: Project Manager
-      linkedin: https://www.linkedin.com/in/sean-lawrence-793a77183/
       major: Manufacturing Engineering
+      linkedin: https://www.linkedin.com/in/sean-lawrence-793a77183/
 
 - heading: Directors
   members:
     - name: Adam Hess
       title: Technical Director
       major: Industrial Technology—Vehicle Design
+      linkedin: https://www.linkedin.com/in/adamhessm/
 
     - name: Ryan Meredith
       title: Business Director
@@ -20,22 +21,23 @@
   members:
     - name: Chris Baumgartner
       title: Aerodynamics Lead
-      linkedin: https://www.linkedin.com/in/christopher-baumgartner-1298321a5/
       lead: true
+      linkedin: https://www.linkedin.com/in/christopher-baumgartner-1298321a5/
       major: Plastics and Composites Engineering
       
     - name: Alec Newton
       title: Aerodynamics Assistant Lead
       lead: true
       major:
+      linkedin:
 
 - heading: Chassis
   members:
     - name: Ellison Brink
       title: Chassis Lead
+      lead: true
       major: Plastics and Composites Engineering
       linkedin: https://www.linkedin.com/in/ellison-brink-b66076180/
-      lead: true
    
 - heading: Electronics
   members:
@@ -62,21 +64,21 @@
     - name: Ingrid Shipstead
       title: Ergonomics Assistant Lead
       lead: true
-      major: 
-      linkedin: 
+      major: Manufacturing Engineering
+      linkedin: https://www.linkedin.com/in/ingridshipstead/
       
 - heading: Powertrain
   members:
     - name: Chandler Johnston
       title: Powertrain Lead
-      linkedin: https://www.linkedin.com/in/chandler-johnston/
       lead: true
       major: Electrical Engineering—Energy Concentration
+      linkedin: https://www.linkedin.com/in/chandler-johnston/
       
     - name: Niklas Dolph
       title: Powertrain Assistant Lead
-      major: Plastics and Composites Engineering
       lead: true
+      major: Plastics and Composites Engineering
       linkedin: https://www.linkedin.com/in/niklas-dolph-89b268197/
     
 - heading: Suspension
@@ -90,5 +92,5 @@
     - name: Alex West
       title: Suspension Assistant Lead
       lead: true
-      major: 
-      linkedin: 
+      major: Plastics and Composites Engineering
+      linkedin: https://www.linkedin.com/in/alexander-west-engr/
