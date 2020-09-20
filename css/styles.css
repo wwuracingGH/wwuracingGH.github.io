@@ -124,15 +124,15 @@ color: #33659F;  /*Sets the text hover color on navbar*/
  }
 
 .navbar-default .navbar-nav > li > a {
- color: darkgray; /*Change non-active text color*/
-  }
+  color: darkgray; /*Change non-active text color*/
+}
 
-.flex-container{
-display:flex;
+.flex-container {
+  display:flex;
   float: right;
-  }
+}
 
-.box{
+.box {
   /* flex:1; */
   /* float: right; */
   /* background-color:#f1f1f1; */
@@ -142,31 +142,37 @@ display:flex;
 }
 
 .indentp {
-    margin-left: 1em;
-    color: #e5e4e2
+  margin-left: 1em;
+  color: #e5e4e2
 }
 
 .indentg {
-    margin-left: 1em;
-    color: #d4af37
+  margin-left: 1em;
+  color: #d4af37
 }
 .indents {
-    margin-left: 1em;
-    color: #c0c0c0
+  margin-left: 1em;
+  color: #c0c0c0
 }
 .indentb {
-    margin-left: 1em;
-    color: #b08d57
+  margin-left: 1em;
+  color: #b08d57
 }
 .indentsp {
-    margin-left: 1em;
-    color: #66b5e6
+  margin-left: 1em;
+  color: #66b5e6
 }
 .indentf {
-    margin-left: 1em;
-    color: #99cdef
+  margin-left: 1em;
+  color: #99cdef
 }
 .indentgi {
-    margin-left: 1em;
-    color: #cce6f7
+  margin-left: 1em;
+  color: #cce6f7
+}
+
+#new-member-form {
+  display: flex;
+  margin: 0 auto;
+
 }
