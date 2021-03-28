@@ -1,11 +1,15 @@
 * {
-  font-family: 'Muli', 'Open Sans', sans-serif;
+  font-family: 'Fira Sans', 'Open Sans', sans-serif;
   font-weight: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Muli', 'Open Sans', sans-serif!important;
-  font-weight: normal;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  color: #003f87;
+}
+
+h3 small {
+  color: #1c2023;
 }
 
 html {
@@ -15,13 +19,23 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 160px;
-  color: #9f9f9f;
+  color: #1c2023;
+  background-color: #e3e7e9;
 }
 
 p {
-  font-family: 'Verdana', 'Open Sans', sans-serif;
-  font-size: 16pt;
-  margin-bottom: 2.5em;
+  font-family: 'Fira Sans';
+  font-size: 14pt;
+  color: #1c2023;
+  margin-bottom: 1em;
+  float: none;
+}
+
+a {
+  font-family: 'Fira Sans';
+  font-size: 14pt;
+  color: #007ac8;
+  /* margin-bottom: 2em; */
 }
 
 .indent {
@@ -34,7 +48,7 @@ p {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 160px;
-  background-color: #1E1E1E;
+  background-color: #003f87;
 }
 
 @media(min-width:768px) {
@@ -53,6 +67,8 @@ p {
 
 .navbar-static-top {
   margin: 0;
+  background-color: #e3e7e9;
+  border-color: #e3e7e9;
 }
 
 .navbar-brand-logo {
@@ -78,11 +94,15 @@ p {
 
 .jumbotron {
   position:relative;
-  color: white;
-  text-shadow: #111 2px 4px 10px;
+  color: #007ac8;
+  text-shadow: #1c2023 2px 3px 5px;
   background:transparent;
   padding-top:0;
   padding-bottom: 0;
+}
+
+.jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5, .jumbotron h6 {
+  color: #f5f6f7;
 }
 
 @media(min-width:768px) {
@@ -93,7 +113,7 @@ p {
 
 .jumbotron .container {
   /*padding-left: 40px;*/
-  padding-top: 10%;
+  /* padding-top: 10%; */
   position:absolute;
 }
 
@@ -113,18 +133,32 @@ p {
 .navbar-nav > li > .dropdown-menu { background-color: #000000; }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-color: #33659F;  /*Sets the text hover color on navbar*/
+  color: #007ac8;  /*Sets the text hover color on navbar*/
 }
 
 .dropdown-menu > li > a:hover,
  .dropdown-menu > li > a:focus {
-  color: white;
+  color: #007ac8;
   text-decoration: none;
-  background-color: #33659F;  /*change color of links in drop down here*/
+  background-color: #007ac8;  /*change color of links in drop down here*/
+ }
+
+ .navbar {
+   padding-bottom: 0em;
  }
 
 .navbar-default .navbar-nav > li > a {
-  color: darkgray; /*Change non-active text color*/
+  color: #667986; /*Change non-active text color*/
+  font-weight: 600;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: #003f87; /* Change active text color */
+  font-weight: 700;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #007ac8; /* Change active hover text color */
 }
 
 .flex-container {
@@ -175,4 +209,84 @@ color: #33659F;  /*Sets the text hover color on navbar*/
   display: flex;
   margin: 0 auto;
 
+}
+
+.car-img-right {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  width: 300px;
+}
+
+.car-img-left {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  width: 300px;
+}
+
+.carousel {
+  display: block;
+  margin: 0 auto 15px;
+  width: 300px;
+}
+
+.item > img {
+  width: 300px;
+}
+
+@media screen and (min-width: 540px) {
+  .car-img-right {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    width: 300px;
+    float: right;
+  }
+
+  .car-img-left {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    float: left;
+    padding: 0 15px 15px 0;
+  }
+  
+  .carousel {
+    display: block;
+    margin: 0 auto 15px;
+    width: 400px;
+  }
+
+  .item > img {
+    width: 400px;
+  }
+
+  .car > h4 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  .carousel {
+    display: block;
+    margin: 0 auto 15px;
+    width: 600px;
+  }
+
+  .item > img {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel {
+    display: block;
+    margin: 0 auto 15px;
+    width: 900px;
+  }
+
+  .item > img {
+    width: 900px;
+  }
 }

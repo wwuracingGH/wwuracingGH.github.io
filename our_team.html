@@ -1,0 +1,61 @@
+---
+layout: default
+title: Our Team
+order: 2
+---
+
+<div class="container-body container text-center">
+  <h2>OUR TEAM</h2>
+  {%- for team in site.data.roster -%}
+    <br>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3>{{ team.heading }}</h3>
+        <br>
+      </div>
+      {%- for member in team.members -%}
+      {%- assign leads = team.members | where: "lead", true -%}
+      {%- assign leadlength = leads | size -%}
+      {%- assign memberlength = forloop.length | minus: leadlength -%}
+      {%- assign mod3 = memberlength | modulo: 3 -%}
+      {%- assign mod2 = memberlength | modulo: 2 -%}
+      {%- assign email = member.name | downcase | replace: ' ','.' | append: '@wwuracing.com' -%}
+      <div class="col-lg-
+      {%- if member.lead == true -%}
+        {{12 | divided_by: leadlength}}
+      {%- elsif forloop.rindex0 < mod3 -%}
+        {{12 | divided_by: mod3}}
+      {%- else -%}
+      4
+      {%- endif %} col-sm-
+      {%- if member.lead -%}
+        {{12 | divided_by: leadlength}}
+      {%- elsif forloop.rindex0 < mod2 -%}
+        {{12 | divided_by: mod2}}
+      {%- else -%}
+        6
+      {%- endif %} mb-4">
+        <img class="roster-image rounded-circle img-fluid d-block mx-auto" src="{{ site.url }}/images/roster/{{member.name | downcase | replace: ' ','_' | append: '.jpg'}}" alt=" ">
+        <h3 style="font-family:'Fira Sans'">{{ member.name }}
+          <small>
+            {%- if member.title -%}
+            <br>
+            {{ member.title }}
+            {%- endif -%}
+            {%- if member.major -%}
+            <br>
+            <small><em>{{ member.major }}</em></small>
+            {%- endif -%}
+            <br>
+            <a href="mailto:{{ email }}"><i class="fa fa-envelope" style="font-size:24px"></i></a>
+            {%- if member.linkedin -%}
+            <a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin" style="font-size:24px;padding-left:40px"></i></a>
+            {%- endif -%}
+          </small>
+        </h3>
+        <br><br>
+      </div>
+    {%- endfor -%}
+  </div>
+  {%- endfor -%}
+</div>
