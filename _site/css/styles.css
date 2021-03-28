@@ -1,0 +1,292 @@
+* {
+  font-family: 'Fira Sans', 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  color: #003f87;
+}
+
+h3 small {
+  color: #1c2023;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 160px;
+  color: #1c2023;
+  background-color: #e3e7e9;
+}
+
+p {
+  font-family: 'Fira Sans';
+  font-size: 14pt;
+  color: #1c2023;
+  margin-bottom: 1em;
+  float: none;
+}
+
+a {
+  font-family: 'Fira Sans';
+  font-size: 14pt;
+  color: #007ac8;
+  /* margin-bottom: 2em; */
+}
+
+.indent {
+  margin-left: 1em;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 160px;
+  background-color: #003f87;
+}
+
+@media(min-width:768px) {
+  .footer {
+    height: 100px;
+  }
+
+  body {
+    margin-bottom: 100px;
+  }
+}
+
+.navbar-right {
+  margin-right: 0px;
+}
+
+.navbar-static-top {
+  margin: 0;
+  background-color: #e3e7e9;
+  border-color: #e3e7e9;
+}
+
+.navbar-brand-logo {
+  padding: 0px 10px 0px 10px;
+}
+
+.logo {
+  padding-top: 3px;
+  max-height: 45px;
+}
+
+.footer > .container {
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.img-responsive {
+  position:relative;
+  margin: 0;
+  z-index: -1;
+}
+
+.jumbotron {
+  position:relative;
+  color: #007ac8;
+  text-shadow: #1c2023 2px 3px 5px;
+  background:transparent;
+  padding-top:0;
+  padding-bottom: 0;
+}
+
+.jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5, .jumbotron h6 {
+  color: #f5f6f7;
+}
+
+@media(min-width:768px) {
+  .jumbotron .container {
+    padding-left: 100px;
+  }
+}
+
+.jumbotron .container {
+  /*padding-left: 40px;*/
+  /* padding-top: 10%; */
+  position:absolute;
+}
+
+#success_message{ display: none;}
+
+.roster-image {
+  width: 200px;
+  height: 200px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display:block;
+  margin-top: 0;
+}
+
+/* Background color for About drop down */
+.navbar-nav > li > .dropdown-menu { background-color: #000000; }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #007ac8;  /*Sets the text hover color on navbar*/
+}
+
+.dropdown-menu > li > a:hover,
+ .dropdown-menu > li > a:focus {
+  color: #007ac8;
+  text-decoration: none;
+  background-color: #007ac8;  /*change color of links in drop down here*/
+ }
+
+ .navbar {
+   padding-bottom: 0em;
+ }
+
+.navbar-default .navbar-nav > li > a {
+  color: #667986; /*Change non-active text color*/
+  font-weight: 600;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: #003f87; /* Change active text color */
+  font-weight: 700;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #007ac8; /* Change active hover text color */
+}
+
+.flex-container {
+  display:flex;
+  float: right;
+}
+
+.box {
+  /* flex:1; */
+  /* float: right; */
+  /* background-color:#f1f1f1; */
+  margin: 10px;
+  padding: 20px;
+  font-size:30px;
+}
+
+.indentp {
+  margin-left: 1em;
+  color: #e5e4e2
+}
+
+.indentg {
+  margin-left: 1em;
+  color: #d4af37
+}
+.indents {
+  margin-left: 1em;
+  color: #c0c0c0
+}
+.indentb {
+  margin-left: 1em;
+  color: #b08d57
+}
+.indentsp {
+  margin-left: 1em;
+  color: #66b5e6
+}
+.indentf {
+  margin-left: 1em;
+  color: #99cdef
+}
+.indentgi {
+  margin-left: 1em;
+  color: #cce6f7
+}
+
+#new-member-form {
+  display: flex;
+  margin: 0 auto;
+
+}
+
+.car-img-right {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  width: 300px;
+}
+
+.car-img-left {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  width: 300px;
+}
+
+.carousel {
+  display: block;
+  margin: 0 auto 15px;
+  width: 300px;
+}
+
+.item > img {
+  width: 300px;
+}
+
+@media screen and (min-width: 540px) {
+  .car-img-right {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    width: 300px;
+    float: right;
+  }
+
+  .car-img-left {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    float: left;
+    padding: 0 15px 15px 0;
+  }
+  
+  .carousel {
+    display: block;
+    margin: 0 auto 15px;
+    width: 400px;
+  }
+
+  .item > img {
+    width: 400px;
+  }
+
+  .car > h4 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  .carousel {
+    display: block;
+    margin: 0 auto 15px;
+    width: 600px;
+  }
+
+  .item > img {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel {
+    display: block;
+    margin: 0 auto 15px;
+    width: 900px;
+  }
+
+  .item > img {
+    width: 900px;
+  }
+}
