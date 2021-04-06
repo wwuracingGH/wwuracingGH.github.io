@@ -12,10 +12,10 @@
       major: Industrial Technology—Vehicle Design
       linkedin: https://www.linkedin.com/in/adamhessm/
 
-    - name: Ryan Meredith
-      title: Business Director
-      major: Management Information Systems
-      linkedin: https://www.linkedin.com/in/johnrmeredith/
+    - name: Allison Mazurek
+      title: Ergonomics Lead
+      major: Plastics and Composites Engineering/Communication Studies
+      linkedin: https://www.linkedin.com/in/allison-mazurek-64a636170/
 
 - heading: Aero
   members:
@@ -55,14 +55,8 @@
 
 - heading: Ergonomics
   members:
-    - name: Allison Mazurek
+      name: Ingrid Shipstead
       title: Ergonomics Lead
-      lead: true
-      major: Plastics and Composites Engineering/Communication Studies
-      linkedin: https://www.linkedin.com/in/allison-mazurek-64a636170/
-
-    - name: Ingrid Shipstead
-      title: Ergonomics Assistant Lead
       lead: true
       major: Manufacturing Engineering
       linkedin: https://www.linkedin.com/in/ingridshipstead/
