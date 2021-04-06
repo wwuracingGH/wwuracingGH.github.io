@@ -55,12 +55,11 @@
 
 - heading: Ergonomics
   members:
-      name: Ingrid Shipstead
+    - name: Ingrid Shipstead
       title: Ergonomics Lead
       lead: true
       major: Manufacturing Engineering
       linkedin: https://www.linkedin.com/in/ingridshipstead/
-
 - heading: Powertrain
   members:
     - name: Chandler Johnston
