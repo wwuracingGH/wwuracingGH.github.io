@@ -19,7 +19,7 @@ order: 2
       {%- assign memberlength = forloop.length | minus: leadlength -%}
       {%- assign mod3 = memberlength | modulo: 3 -%}
       {%- assign mod2 = memberlength | modulo: 2 -%}
-      {%- assign email = member.name | downcase | replace: ' ','.' | append: '@wwuracing.com' -%}
+      {%- assign email = member.name | downcase | replace: ' ','.' | append: '@wwufsae.com' -%}
       <div class="col-lg-
       {%- if member.lead == true -%}
         {{12 | divided_by: leadlength}}
