@@ -1,9 +1,9 @@
 - heading: Project Manager
   members:
-    - name: Sean Lawrence
-      title: Project Manager
-      major: Manufacturing Engineering
-      linkedin: https://www.linkedin.com/in/sean-lawrence-793a77183/
+    - name: Alec Newton
+      title: Aerodynamics Assistant Lead
+      major: Plastics and Composites Engineering
+      linkedin: https://www.linkedin.com/in/alec-newton-444b451b6/
 
 - heading: Directors
   members:
@@ -17,7 +17,7 @@
       major: Plastics and Composites Engineering/Communication Studies
       linkedin: https://www.linkedin.com/in/allison-mazurek-64a636170/
 
-- heading: Aero
+- heading: Aero/Chassis
   members:
     - name: Chris Baumgartner
       title: Aerodynamics Lead
@@ -61,10 +61,10 @@
       major: Manufacturing Engineering
       linkedin: https://www.linkedin.com/in/ingridshipstead/
     
-    - name: Jocelyn Ocampo
+    - name: Kyana Grayer
       title: Ergonomics Assistant Lead
       lead: true
-      major: Manufacturing Engineering
+      major: 
 
 - heading: Powertrain
   members:
@@ -74,11 +74,16 @@
       major: Electrical Engineering—Energy Concentration
       linkedin: https://www.linkedin.com/in/chandler-johnston/
 
-    - name: Niklas Dolph
-      title: Powertrain Assistant Lead
+    - name: Tristan Benson
+      title: Powertrain Mechanical Assistant Lead
       lead: true
-      major: Plastics and Composites Engineering
-      linkedin: https://www.linkedin.com/in/niklas-dolph-89b268197/
+      major: 
+      linkedin: 
+    - name: Tristan Benson
+      title: Powertrain Mechanical Assistant Lead
+      lead: true
+      major: 
+      linkedin: 
 
 - heading: Suspension
   members:
