@@ -7,9 +7,9 @@
 
 - heading: Directors
   members:
-    - name: Adam Hess
+    - name: Robert Butnar
       title: Technical Director
-      major: Industrial Technology—Vehicle Design
+      major: 
       linkedin: https://www.linkedin.com/in/adamhessm/
 
     - name: Allison Mazurek
@@ -25,19 +25,11 @@
       linkedin: https://www.linkedin.com/in/christopher-baumgartner-1298321a5/
       major: Plastics and Composites Engineering
 
-    - name: Alec Newton
+    - name: Halen Waber
       title: Aerodynamics Assistant Lead
       lead: true
-      major: Plastics and Composites Engineering
-      linkedin: https://www.linkedin.com/in/alec-newton-444b451b6/
-
-- heading: Chassis
-  members:
-    - name: Ellison Brink
-      title: Chassis Lead
-      lead: true
-      major: Plastics and Composites Engineering
-      linkedin: https://www.linkedin.com/in/ellison-brink-b66076180/
+      major: 
+      linkedin: 
 
 - heading: Electronics
   members:
@@ -65,6 +57,7 @@
       title: Ergonomics Assistant Lead
       lead: true
       major: 
+      linkedin: 
 
 - heading: Powertrain
   members:
@@ -79,22 +72,23 @@
       lead: true
       major: 
       linkedin: 
-    - name: Tristan Benson
-      title: Powertrain Mechanical Assistant Lead
+    
+    - name: Ethan Hatlelid
+      title: Powertrain Electrical Assistant Lead
       lead: true
       major: 
       linkedin: 
 
 - heading: Suspension
   members:
-    - name: Matthew Evanoff
+    - name: Ian Tamnigin
       title: Suspension Lead
       lead: true
-      major: Plastics and Composites Engineering
-      linkedin: https://www.linkedin.com/in/matthew-evanoff-349a7b166/
+      major: 
+      linkedin: 
 
-    - name: Alexander West
+    - name: Jocelyn Ocampo
       title: Suspension Assistant Lead
       lead: true
-      major: Plastics and Composites Engineering
-      linkedin: https://www.linkedin.com/in/alexander-west-engr/
+      major: Manufacturing Engineering
+      linkedin: 
