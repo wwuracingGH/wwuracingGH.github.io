@@ -8,8 +8,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand navbar-brand-logo" href="/"><img class="logo" src="{{ site.url }}/images/V61 Logo Black.png"></a>
-      <a class="navbar-brand" href="/"></a>
+      <a class="navbar-brand navbar-brand-logo" href="/"><img class="logo" src="{{ site.url }}/images/V61 Banner small.png"></a>
+      <!-- <a class="navbar-brand" href="/"></a> -->
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -21,7 +21,9 @@
               {% unless node.belongs_to %}
                 {% assign sub_pages = site.pages | where:'belongs_to',node.title %}
                 {% if sub_pages.size == 0 %}
-                  <li{% if node.title == page.title %} class="active"{% endif %}><a href="{{ node.url | remove: '.html'}}">{{ node.title }}</a></li>
+                  {% if node.title != "Home" %}
+                    <li{% if node.title == page.title %} class="active"{% endif %}><a href="{{ node.url | remove: '.html'}}">{{ node.title }}</a></li>
+                  {% endif %}
                 {% else %}
                   <li class="dropdown {% if node.title == page.title %}active{% endif %}">
                     <a class="dropdown-toggle disabled" data-toggle="dropdown" href="{{ node.url | remove: '.html'}}">{{ node.title }} <span class="caret"></span></a>

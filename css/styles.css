@@ -47,17 +47,17 @@ a {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 160px;
+  /* height: 100px; */
   background-color: #003f87;
+}
+
+body > .container {
+  margin-bottom: 100px;
 }
 
 @media(min-width:768px) {
   .footer {
-    height: 100px;
-  }
-
-  body {
-    margin-bottom: 100px;
+    height: 150px;
   }
 }
 
@@ -76,14 +76,21 @@ a {
 }
 
 .logo {
+  margin-top: 2px;
   padding-top: 3px;
   max-height: 45px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.logo:hover {
+  filter: invert(34%) sepia(56%) saturate(7134%) hue-rotate(187deg) brightness(97%) contrast(103%);
 }
 
 .footer > .container {
   padding-top: 20px;
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom:20px;
 }
 
 .img-responsive {
@@ -150,6 +157,8 @@ a {
 .navbar-default .navbar-nav > li > a {
   color: #667986; /*Change non-active text color*/
   font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .navbar-default .navbar-nav > .active > a {
@@ -228,11 +237,11 @@ a {
 .carousel {
   display: block;
   margin: 0 auto 15px;
-  width: 300px;
+  width: 90%;
 }
 
 .item > img {
-  width: 300px;
+  width: 100%;
 }
 
 @media screen and (min-width: 540px) {
@@ -255,11 +264,11 @@ a {
   .carousel {
     display: block;
     margin: 0 auto 15px;
-    width: 400px;
+    width: 90%;
   }
 
   .item > img {
-    width: 400px;
+    width: 100%;
   }
 
   .car > h4 {
@@ -271,22 +280,79 @@ a {
   .carousel {
     display: block;
     margin: 0 auto 15px;
-    width: 600px;
+    width: 90%;
   }
 
   .item > img {
-    width: 600px;
+    width: 100%;
   }
 }
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .carousel {
     display: block;
     margin: 0 auto 15px;
-    width: 900px;
+    width: 90%;
   }
 
   .item > img {
-    width: 900px;
+    width: 100%;
   }
+} */
+
+#teamSelect {
+  /* display: inline-block;
+  background-color: inherit;
+  margin: 0 auto; */
+  margin: 40px 0;
+  font-size: 0;
+}
+
+.teamButton {
+  display: inline-block;
+  background-color: inherit;
+  color: #003f87;
+  border: none;
+  border-bottom: 4px solid #003f87;
+  outline: none;
+  padding: 5px 13px;
+  font-size: 25;
+  transition: 0.3s;
+  font: 25px "Montserrat";
+  
+}
+
+#teamSelect button:hover {
+  background-color: #007ac8;
+  color: #f5f6f7;
+}
+
+#teamSelect button.active {
+  background-color: #003f87;
+  color: #f5f6f7;
+}
+
+.car > ul {
+  text-align: center;
+  font-size: 14pt;
+}
+
+/* li {
+  display: block;
+} */
+
+#WWULogo {
+  display: none;
+  /* position: absolute; */
+  margin: 0 auto;
+  height: 100px;
+  width: max-content;
+  left: auto;
+  /* right: 100px; */
+  top: auto;
+  bottom: auto;
+}
+
+.car {
+  margin-bottom: 40px;
 }

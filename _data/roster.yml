@@ -9,8 +9,8 @@
   members:
     - name: Robert Butnar
       title: Technical Director
-      major: 
-      linkedin: https://www.linkedin.com/in/adamhessm/
+      major: Manufacturing Engineering
+      linkedin: 
 
     - name: Allison Mazurek
       title: Business Director
@@ -42,7 +42,7 @@
     - name: Daniel Young
       title: Electronics Assistant Lead
       lead: true
-      major: Electrical Engineering
+      major: Electrical and Computer Engineering
       linkedin: https://www.linkedin.com/in/danielyoung71857/
 
 - heading: Ergonomics
@@ -56,35 +56,35 @@
     - name: Kyana Grayer
       title: Ergonomics Assistant Lead
       lead: true
-      major: 
-      linkedin: 
+      major: Manufacturing Engineering
+      linkedin: https://www.linkedin.com/in/kyanagrayer/
 
 - heading: Powertrain
   members:
     - name: Chandler Johnston
       title: Powertrain Lead
       lead: true
-      major: Electrical Engineering—Energy Concentration
+      major: Electrical and Computer Engineering—Energy Concentration
       linkedin: https://www.linkedin.com/in/chandler-johnston/
 
     - name: Tristan Benson
       title: Powertrain Mechanical Assistant Lead
       lead: true
-      major: 
-      linkedin: 
+      major: Manufacturing Engineering
+      # linkedin: 
     
     - name: Ethan Hatlelid
       title: Powertrain Electrical Assistant Lead
       lead: true
-      major: 
-      linkedin: 
+      major: Electrical and Computer Engineering
+      linkedin: https://www.linkedin.com/in/ethan-hatlelid-b209a6218/
 
 - heading: Suspension
   members:
-    - name: Ian Tamnigin
+    - name: Ian Tamngin
       title: Suspension Lead
       lead: true
-      major: 
+      major: Manufacturing Engineering
       linkedin: 
 
     - name: Jocelyn Ocampo
