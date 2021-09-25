@@ -29,7 +29,7 @@ layout: default
       </div>
     </div>
   </div>
-  <img class="img-responsive" src="{% for image in site.static_files %}{% assign pageTitle = page.title | slugify %}{% assign imgPath = image.path | downcase %}{% if imgPath contains pageTitle %}{{ image.path }}{% endif %}{% endfor %}">
+  <img class="img-responsive" src="{% for image in site.static_files %}{% assign pageTitle = page.title | slugify %}{% assign imgPath = image.path | downcase %}{% if imgPath contains pageTitle %}{% if imgPath contains "jpg" %}{{ image.path }}{% endif %}{% endif %}{% endfor %}">
 </div>
 
 <div class="container-body container">
