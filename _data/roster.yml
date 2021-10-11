@@ -19,16 +19,10 @@
 
 - heading: Aero/Chassis
   members:
-    - name: Chris Baumgartner
+    - name: Halen Waber
       title: Aerodynamics Lead
       lead: true
-      linkedin: https://www.linkedin.com/in/christopher-baumgartner-1298321a5/
       major: Plastics and Composites Engineering
-
-    - name: Halen Waber
-      title: Aerodynamics Assistant Lead
-      lead: true
-      major: 
       linkedin: 
 
 - heading: Electronics
@@ -38,12 +32,6 @@
       lead: true
       major: Computer Science
       linkedin: https://www.linkedin.com/in/peter-schinske-66359b196/
-
-    - name: Daniel Young
-      title: Electronics Assistant Lead
-      lead: true
-      major: Electrical and Computer Engineering
-      linkedin: https://www.linkedin.com/in/danielyoung71857/
 
 - heading: Ergonomics
   members:
