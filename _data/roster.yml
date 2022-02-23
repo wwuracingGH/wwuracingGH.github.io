@@ -9,7 +9,7 @@
     - name: Robert Butnar
       title: Technical Director
       major: Manufacturing Engineering
-      linkedin: 
+      linkedin: https://www.linkedin.com/in/robert-butnar-6b48511b9/
 
     - name: Allison Mazurek
       title: Business Director
@@ -22,7 +22,7 @@
       title: Aerodynamics Lead
       lead: true
       major: Plastics and Composites Engineering
-      linkedin: 
+      linkedin: https://www.linkedin.com/in/halen-waber-46619221b/
 
 - heading: Electronics
   members:
@@ -58,7 +58,7 @@
       title: Powertrain Mechanical Assistant Lead
       lead: true
       major: Manufacturing Engineering
-      # linkedin: 
+      linkedin: https://www.linkedin.com/in/tristan-benson-b42247222/
     
     - name: Ethan Hatlelid
       title: Powertrain Electrical Assistant Lead
