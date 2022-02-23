@@ -19,10 +19,16 @@
 - heading: Aero/Chassis
   members:
     - name: Halen Waber
-      title: Aerodynamics Lead
+      title: Aerodynamics/Chassis Lead
       lead: true
       major: Plastics and Composites Engineering
       linkedin: https://www.linkedin.com/in/halen-waber-46619221b/
+
+    - name: Luke Grant
+      title: Aerodynamics/Chassis Assistant Lead
+      lead: true
+      major: Plastics and Composites Engineering
+      linkedin: https://www.linkedin.com/in/grantlj
 
 - heading: Electronics
   members:
