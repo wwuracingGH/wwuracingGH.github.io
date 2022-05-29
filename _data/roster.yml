@@ -37,6 +37,12 @@
       lead: true
       major: Computer Science
       linkedin: https://www.linkedin.com/in/peter-schinske-66359b196/
+      
+    - name: Gene Ellerby
+      title: Electronics Assistant Lead
+      lead: true
+      major: Manufacturing Engineering
+      linkedin: https://www.linkedin.com/in/gene-ellerby-bb18b51b3/
 
 - heading: Ergonomics
   members:
@@ -65,12 +71,11 @@
       lead: true
       major: Manufacturing Engineering
       linkedin: https://www.linkedin.com/in/tristan-benson-b42247222/
-    
-    - name: Ethan Hatlelid
+      
+    - name: Melana Evans
       title: Powertrain Electrical Assistant Lead
       lead: true
-      major: Electrical and Computer Engineering
-      linkedin: https://www.linkedin.com/in/ethan-hatlelid-b209a6218/
+      major: Electrical Engineering
 
 - heading: Suspension
   members:
