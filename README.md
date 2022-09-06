@@ -16,8 +16,13 @@ https://rubyinstaller.org/downloads/
 
 https://git-scm.com/
 
+### Open Git Bash, then change the active directory to desired local folder using
+
+`-> cd /c/<desired folder>`
+
 ### Clone our Repository
-`-> git clone https://github.com/rhedgehog/WWURacing-web.git`
+
+`-> git clone https://github.com/wwuracingGH/wwuracingGH.github.io.git`
 
 ### Delete old Files
 
