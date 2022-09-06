@@ -1,92 +1,81 @@
 - heading: Project Manager
   members:
-    - name: Alec Newton
+    - name: Allison Mazurek
       major: Plastics and Composites Engineering
-      linkedin: https://www.linkedin.com/in/alec-newton-444b451b6/
+      linkedin: https://www.linkedin.com/in/allison-mazurek-64a636170/
 
 - heading: Directors
   members:
-    - name: Robert Butnar
+    - name: Chandler Johnston
       title: Technical Director
-      major: Manufacturing Engineering
-      linkedin: https://www.linkedin.com/in/robert-butnar-6b48511b9/
+      major: Electrical and Computer Engineering—Energy Concentration
+      linkedin: https://www.linkedin.com/in/chandler-johnston/
 
-    - name: Allison Mazurek
+    - name: Julia Greene
       title: Business Director
-      major: Plastics and Composites Engineering/Communication Studies
-      linkedin: https://www.linkedin.com/in/allison-mazurek-64a636170/
+      major: Business
+      linkedin: https://www.linkedin.com/in/juliagreene2001/
 
-- heading: Aero/Chassis
+- heading: Aerodynamics
+  members:
+    - name: Luke Grant
+      title: Aerodynamics Lead
+      lead: true
+      major: Plastics and Composites Engineering
+      linkedin: https://www.linkedin.com/in/grantlj
+      
+- heading: Chassis
   members:
     - name: Halen Waber
-      title: Aerodynamics/Chassis Lead
+      title: Chassis Lead
       lead: true
       major: Plastics and Composites Engineering
       linkedin: https://www.linkedin.com/in/halen-waber-46619221b/
 
-    - name: Luke Grant
-      title: Aerodynamics/Chassis Assistant Lead
-      lead: true
-      major: Plastics and Composites Engineering
-      linkedin: https://www.linkedin.com/in/grantlj
-
-- heading: Electronics
+- heading: LV Electronics
   members:
-    - name: Peter Schinske
-      title: Electronics Lead
-      lead: true
-      major: Computer Science
-      linkedin: https://www.linkedin.com/in/peter-schinske-66359b196/
-      
-    - name: Gene Ellerby
-      title: Electronics Assistant Lead
+    - name: Geneva Ellerby
+      title: LV Electronics Lead
       lead: true
       major: Manufacturing Engineering
       linkedin: https://www.linkedin.com/in/gene-ellerby-bb18b51b3/
+      
+- heading: Powertronics
+  members:
+    - name: Melana Evans
+      title: Powertronics Lead
+      lead: true
+      major: Electrical and Computer Engineering-Energy Concentration
+      linkedin: https://www.linkedin.com/in/melana-evans/
+
 
 - heading: Ergonomics
   members:
-    - name: Ingrid Shipstead
-      title: Ergonomics Lead
-      lead: true
-      major: Manufacturing Engineering
-      linkedin: https://www.linkedin.com/in/ingridshipstead/
-    
     - name: Kyana Grayer
-      title: Ergonomics Assistant Lead
+      title: Ergonomics Lead
       lead: true
       major: Manufacturing Engineering
       linkedin: https://www.linkedin.com/in/kyanagrayer/
 
-- heading: Powertrain
+- heading: Drivetrain/Cooling
   members:
-    - name: Chandler Johnston
-      title: Powertrain Lead
+    - name: Addison Brock
+      title: Drivetrain/Cooling Lead
       lead: true
-      major: Electrical and Computer Engineering—Energy Concentration
-      linkedin: https://www.linkedin.com/in/chandler-johnston/
-
-    - name: Tristan Benson
-      title: Powertrain Mechanical Assistant Lead
-      lead: true
-      major: Manufacturing Engineering
-      linkedin: https://www.linkedin.com/in/tristan-benson-b42247222/
-      
-    - name: Melana Evans
-      title: Powertrain Electrical Assistant Lead
-      lead: true
-      major: Electrical and Computer Engineering—Energy Concentration
+      major: Music
+      linkedin: 
 
 - heading: Suspension
   members:
-    - name: Ian Tamngin
+    - name: Megan Ellis
       title: Suspension Lead
       lead: true
-      major: Manufacturing Engineering
+      major: Environmental Science
       linkedin: 
-
-    - name: Jocelyn Ocampo
-      title: Suspension Assistant Lead
+      
+- heading: Shop Operations
+  members:
+    - name: Max Bjornson
+      title: Shop Operations Lead
       lead: true
-      major: Manufacturing Engineering
-      linkedin: 
+      major: 
