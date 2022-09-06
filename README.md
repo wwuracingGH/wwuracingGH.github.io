@@ -1,6 +1,6 @@
 # Setup Instructions
 
-### Install Ruby
+### Install Ruby+Devkit 3.1.X (x64) and select MYSYS2 option when prompted
 
 https://rubyinstaller.org/downloads/
 
