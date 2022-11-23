@@ -41,3 +41,12 @@ https://git-scm.com/
 ### Open in your local browser
 
 http://127.0.0.1:4000/
+
+# Contributing
+
+When contributing please follow the guidelines so we can keep everything professional and consistent
+
+- Please keep the title short and sweet, in a couple of words state what you did, ie: "Added x to y", "Updated x page", etc
+- Give a summary of what you did. This doesn't have to be super long, maybe a paragraph
+- Make a list of the things you did
+- Say why you did things so we don't have to reach out and ask
