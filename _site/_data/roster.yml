@@ -1,0 +1,115 @@
+- heading: Project Manager
+  members:
+    - name: Allison Mazurek
+      major: Plastics and Composites Engineering
+      linkedin: https://www.linkedin.com/in/allison-mazurek-64a636170/
+
+- heading: Directors
+  members:
+    - name: Chandler Johnston
+      title: Technical Director
+      major: Electrical and Computer Engineering—Energy Concentration
+      linkedin: https://www.linkedin.com/in/chandler-johnston/
+
+    - name: Julia Greene
+      title: Business Director
+      major: Business
+      linkedin: https://www.linkedin.com/in/juliagreene2001/
+
+- heading: Aerodynamics
+  members:
+    - name: Luke Grant
+      title: Aerodynamics Lead
+      lead: true
+      major: Plastics and Composites Engineering
+      linkedin: https://www.linkedin.com/in/grantlj
+    - name: Arlo Evans
+      title: Aerodynamics Assistant Lead
+      lead: false
+      major: Manufacturing Engineering
+      
+- heading: Chassis
+  members:
+    - name: Halen Waber
+      title: Chassis Lead
+      lead: true
+      major: Plastics and Composites Engineering
+      linkedin: https://www.linkedin.com/in/halen-waber-46619221b/
+
+- heading: LV Electronics
+  members:
+    - name: Gene Ellerby
+      title: LV Electronics Lead
+      lead: true
+      major: Manufacturing Engineering
+      linkedin: https://www.linkedin.com/in/gene-ellerby-bb18b51b3/
+    - name: Brianna Groner
+    title: LV Electronics Assistant Lead
+    lead: false
+    major: Computer Science
+      
+- heading: Powertronics
+  members:
+    - name: Melana Evans
+      title: Powertronics Lead
+      lead: true
+      major: Electrical and Computer Engineering-Energy Concentration
+      linkedin: https://www.linkedin.com/in/melana-evans/
+    - name: Kyle Anderson
+      title: Powertronics Assistant Lead
+      lead: false
+      major: Electrical and Computer Engineering
+
+
+- heading: Ergonomics
+  members:
+    - name: Kyana Grayer
+      title: Ergonomics Lead
+      lead: true
+      major: Manufacturing Engineering
+      linkedin: https://www.linkedin.com/in/kyanagrayer/
+    - name: Jiana Lyons
+      title: Ergonomics Assistant Lead
+      lead: false
+      major: Manufacturing Engineering
+
+- heading: Drivetrain/Cooling
+  members:
+    - name: Addison Brock
+      title: Drivetrain/Cooling Lead
+      lead: true
+      major: Music
+      linkedin: 
+    - name: Benjamin Roberts
+      title: Drivetrain/Cooling Assistant Lead
+      lead: false
+      major: Manufacturing Engineering
+      linkedin: https://www.linkedin.com/in/benjamin-roberts-31607b191
+
+- heading: Suspension
+  members:
+    - name: Megan Ellis
+      title: Suspension Lead
+      lead: true
+      major: Environmental Science
+      linkedin: 
+    - name: Kaden Ebbeson
+      title: Suspension Assistant Lead
+      lead: false
+      major: Manufacturing Engineering
+      linkedin: https://www.linkedin.com/in/kaden-ebbeson-32884b255
+      
+- heading: Shop Operations
+  members:
+    - name: Max Johnson
+      title: Shop Operations Lead
+      lead: true
+      major: Undecided
+
+- heading: Business
+  members:
+    - name: Sam Barnett
+      title: Business Lead
+      lead: true
+      major: Business
+      linkedin: https://www.linkedin.com/in/sam-barnett-503861222
