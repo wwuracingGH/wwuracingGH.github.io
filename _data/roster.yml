@@ -23,6 +23,10 @@
       lead: true
       major: Plastics and Composites Engineering
       linkedin: https://www.linkedin.com/in/grantlj
+    - name: Arlo Evans
+      title: Aerodynamics Assistant Lead
+      lead: false
+      major: Manufacturing Engineering
       
 - heading: Chassis
   members:
@@ -34,11 +38,15 @@
 
 - heading: LV Electronics
   members:
-    - name: Geneva Ellerby
+    - name: Gene Ellerby
       title: LV Electronics Lead
       lead: true
       major: Manufacturing Engineering
       linkedin: https://www.linkedin.com/in/gene-ellerby-bb18b51b3/
+    - name: Brianna Groner
+    title: LV Electronics Assistant Lead
+    lead: false
+    major: Computer Science
       
 - heading: Powertronics
   members:
@@ -47,6 +55,10 @@
       lead: true
       major: Electrical and Computer Engineering-Energy Concentration
       linkedin: https://www.linkedin.com/in/melana-evans/
+    - name: Kyle Anderson
+      title: Powertronics Assistant Lead
+      lead: false
+      major: Electrical and Computer Engineering
 
 
 - heading: Ergonomics
@@ -56,6 +68,10 @@
       lead: true
       major: Manufacturing Engineering
       linkedin: https://www.linkedin.com/in/kyanagrayer/
+    - name: Jiana Lyons
+      title: Ergonomics Assistant Lead
+      lead: false
+      major: Manufacturing Engineering
 
 - heading: Drivetrain/Cooling
   members:
@@ -64,6 +80,11 @@
       lead: true
       major: Music
       linkedin: 
+    - name: Benjamin Roberts
+      title: Drivetrain/Cooling Assistant Lead
+      lead: false
+      major: Manufacturing Engineering
+      linkedin: https://www.linkedin.com/in/benjamin-roberts-31607b191
 
 - heading: Suspension
   members:
@@ -72,10 +93,23 @@
       lead: true
       major: Environmental Science
       linkedin: 
+    - name: Kaden Ebbeson
+      title: Suspension Assistant Lead
+      lead: false
+      major: Manufacturing Engineering
+      linkedin: https://www.linkedin.com/in/kaden-ebbeson-32884b255
       
 - heading: Shop Operations
   members:
-    - name: Max Bjornson
+    - name: Max Johnson
       title: Shop Operations Lead
       lead: true
-      major: 
+      major: Undecided
+
+- heading: Business
+  members:
+    - name: Sam Barnett
+      title: Business Lead
+      lead: true
+      major: Business
+      linkedin: https://www.linkedin.com/in/sam-barnett-503861222
