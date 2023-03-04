@@ -334,7 +334,8 @@ body > .container {
 }
 
 .car > ul {
-  text-align: center;
+  display: inline-block;
+  text-align: left;
   font-size: 14pt;
 }
 
@@ -356,4 +357,5 @@ body > .container {
 
 .car {
   margin-bottom: 40px;
+  text-align:center;
 }
