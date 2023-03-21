@@ -1,7 +1,7 @@
 - heading: Project Manager
   members:
     - name: Allison Mazurek
-      major: Plastics and Composites Engineering
+      major: Polymer Materials Engineering
       linkedin: https://www.linkedin.com/in/allison-mazurek-64a636170/
 
 - heading: Directors
@@ -13,7 +13,7 @@
 
     - name: Julia Greene
       title: Business Director
-      major: Business
+      major: Marketing
       linkedin: https://www.linkedin.com/in/juliagreene2001/
 
 - heading: Aerodynamics
@@ -21,7 +21,7 @@
     - name: Luke Grant
       title: Aerodynamics Lead
       lead: true
-      major: Plastics and Composites Engineering
+      major: Polymer Materials Engineering
       linkedin: https://www.linkedin.com/in/grantlj
       
     - name: Arlo Evans
@@ -34,8 +34,13 @@
     - name: Halen Waber
       title: Chassis Lead
       lead: true
-      major: Plastics and Composites Engineering
+      major: Polymer Materials Engineering
       linkedin: https://www.linkedin.com/in/halen-waber-46619221b/
+      
+    - name: Jake Benjamin
+      title: Chassis Assistant Lead
+      lead: false
+      major: Undecided
       
 - heading: LV Electronics
   members:
@@ -81,7 +86,7 @@
     - name: Addison Brock
       title: Drivetrain/Cooling Lead
       lead: true
-      major: Music
+      major: Audio Engineering
       linkedin: 
       
     - name: Benjamin Roberts
@@ -118,4 +123,11 @@
       lead: true
       major: Manufacturing and Supply Chain Management
       linkedin: https://www.linkedin.com/in/sam-barnett-503861222
+      
+    - name: Evan Wren
+      title: Business Assistant Lead
+      lead: false
+      major: Psychology
+      linkedin: https://www.linkedin.com/in/evan-wren-649152133/
+      
 
