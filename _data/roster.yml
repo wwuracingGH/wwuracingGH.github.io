@@ -118,15 +118,9 @@
 
 - heading: Business
   members:
-    - name: Sam Barnett
+    - name: Evan Wren
       title: Business Lead
       lead: true
-      major: Manufacturing and Supply Chain Management
-      linkedin: https://www.linkedin.com/in/sam-barnett-503861222
-      
-    - name: Evan Wren
-      title: Business Assistant Lead
-      lead: false
       major: Psychology
       linkedin: https://www.linkedin.com/in/evan-wren-649152133/
       
